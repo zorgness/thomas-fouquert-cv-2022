@@ -4,21 +4,19 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import Offcanvas from 'react-bootstrap/Offcanvas';
-import Form from 'react-bootstrap/Form';
-import Button from 'react-bootstrap/Button';
-
 
 const Header = () => {
 
   return (
     <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
     <Container>
-      <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
+      <Navbar.Brand href="#home">Thomas Fouquert</Navbar.Brand>
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
       <Navbar.Offcanvas
               id={`offcanvasNavbar-expand-`}
               aria-labelledby={`offcanvasNavbarLabel-expand-`}
               placement="end"
+              className="bg-dark text-white"
             >
               <Offcanvas.Header closeButton>
                 <Offcanvas.Title id={`offcanvasNavbarLabel-expand-`}>
@@ -27,31 +25,32 @@ const Header = () => {
               </Offcanvas.Header>
               <Offcanvas.Body>
                 <Nav className="justify-content-end flex-grow-1 pe-3">
-                  <Nav.Link href="#action1">Home</Nav.Link>
-                  <Nav.Link href="#action2">Link</Nav.Link>
+                  <Nav.Link href="#action1">Acceuil</Nav.Link>
+                  <Nav.Link href="#action2">Profile</Nav.Link>
+                  <Nav.Link href="#action2">Languages</Nav.Link>
                   <NavDropdown
-                    title="Dropdown"
+                    title="Informations"
                     id={`offcanvasNavbarDropdown-expand-`}
                   >
-                    <NavDropdown.Item href="#action3">Action</NavDropdown.Item>
+                    <NavDropdown.Item href="#action3">
+                      Expérience
+                    </NavDropdown.Item>
                     <NavDropdown.Item href="#action4">
-                      Another action
+                      Education
+                    </NavDropdown.Item>
+                    <NavDropdown.Item href="#action4">
+                      Projet
+                    </NavDropdown.Item>
+                    <NavDropdown.Item href="#action4">
+                      Compétences
                     </NavDropdown.Item>
                     <NavDropdown.Divider />
                     <NavDropdown.Item href="#action5">
-                      Something else here
+                      Contact
                     </NavDropdown.Item>
                   </NavDropdown>
                 </Nav>
-                <Form className="d-flex">
-                  <Form.Control
-                    type="search"
-                    placeholder="Search"
-                    className="me-2"
-                    aria-label="Search"
-                  />
-                  <Button variant="outline-success">Search</Button>
-                </Form>
+
               </Offcanvas.Body>
             </Navbar.Offcanvas>
     </Container>
