@@ -5,6 +5,7 @@ import Info from './components/Info';
 import Profile from './components/Profile';
 import Language from './components/Language';
 import Experience from './components/Experience';
+import Education from './components/Education';
 
 function App() {
 
@@ -30,7 +31,9 @@ function App() {
 
     <hr />
 
+    <Education />
 
+    <hr />
 
 
     </div>
