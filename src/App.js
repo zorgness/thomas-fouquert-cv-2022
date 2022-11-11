@@ -1,5 +1,6 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootswatch/dist/simplex/bootstrap.css';
 import Header from './components/Header';
 import Info from './components/Contact';
 import Profile from './components/Profile';
@@ -16,6 +17,8 @@ function App() {
     <div className="App">
 
     <Header />
+
+    <div className='container components'>
 
     <Profile />
 
@@ -42,6 +45,8 @@ function App() {
     <hr />
 
     <Skill />
+
+    </div>
 
 
     </div>

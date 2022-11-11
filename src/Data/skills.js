@@ -7,12 +7,12 @@ export const skills = [
   {
     id: 2,
     name: "Symfony",
-    description: "Bonnes notions Symfony V5, V6 Api/platform "
+    description: "Notions Symfony Api/platform "
   },
   {
     id: 3,
     name: "Test",
-    description: "Développement piloté par les tests (TDD)"
+    description: "Développement TDD"
   },
   {
     id: 4,
@@ -22,7 +22,7 @@ export const skills = [
   {
     id: 5,
     name: 'Docker',
-    description: "Bonnes notions Docker container"
+    description: "Notions Docker container"
   },
   {
     id: 6,

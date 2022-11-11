@@ -10,12 +10,17 @@ const Education = () => {
 
       <div>
         {
-          educations.map(({id, year, name, description}) => {
+          educations.map(({id, year, name, description, type}) => {
             return (
               <div key={id}>
                 <h4>{year}</h4>
                 <h4>{name}</h4>
-                <p style={{width: '200px', fontSize: '8px'}} className="mx-4">{description}</p>
+
+                {
+                  type === 'link'
+                  ? <p className="mx-4"><a href={description} >Lien du certificat</a></p>
+                  : <p className="mx-4">{description}</p>
+                }
 
               </div>
             )

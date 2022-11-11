@@ -17,7 +17,7 @@ const Project = () => {
                 <h2>{language}</h2>
                 <h4>{name}</h4>
                 <p>{description}</p>
-                <p>{link}</p>
+                <a href={link}>lien vers le site</a>
 
               </div>
 

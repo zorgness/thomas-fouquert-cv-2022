@@ -41,5 +41,12 @@
 
 .App a {
   text-decoration: none;
-  color: black
+}
+
+.components a {
+  color: black;
+}
+
+.components a:hover {
+  color: grey;
 }
