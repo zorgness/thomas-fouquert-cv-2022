@@ -47,7 +47,7 @@ const Header = () => {
                     <NavDropdown.Item href="#project">
                       Project
                     </NavDropdown.Item>
-                    <NavDropdown.Item href="#action4">
+                    <NavDropdown.Item href="#skill">
                       Compétences
                     </NavDropdown.Item>
                     {/* <NavDropdown.Divider />

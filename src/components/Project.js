@@ -2,7 +2,6 @@ import React from 'react'
 import { projects } from '../Data/projects'
 
 const Project = () => {
-  console.log(projects)
 
   return (
     <div id="project">

@@ -2,7 +2,6 @@ import React from 'react'
 import { educations } from './../Data/educations'
 
 const Education = () => {
-  console.log(educations)
 
   return (
     <div id="education">

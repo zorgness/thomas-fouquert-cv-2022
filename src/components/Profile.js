@@ -4,8 +4,6 @@ import imgProfile from '../images/profile/profile.jpg'
 
 const Profile = () => {
 
-  console.log(profile)
-
   const styles = {
     backgroundImage: `url(${imgProfile})`,
     backgroundSize: 'cover'

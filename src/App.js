@@ -6,7 +6,8 @@ import Profile from './components/Profile';
 import Language from './components/Language';
 import Experience from './components/Experience';
 import Education from './components/Education';
-import Project from './components/Project'
+import Project from './components/Project';
+import Skill from './components/Skill';
 
 function App() {
 
@@ -39,6 +40,8 @@ function App() {
     <Project />
 
     <hr />
+
+    <Skill />
 
 
     </div>
