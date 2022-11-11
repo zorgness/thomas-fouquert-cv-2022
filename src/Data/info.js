@@ -21,7 +21,7 @@ export const info = [
   },
   {
     id:5,
-    name: 'linkdin',
+    name: 'linkedin',
     data: 'www.linkedin.com/in/thomas- fouquert-b70795238/'
   }
 ]

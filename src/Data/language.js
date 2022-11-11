@@ -13,7 +13,7 @@ export const language = [
   },
   {
     id: 4,
-    name: 'React JS'
+    name: 'React-JS'
   },
   {
     id: 5,
