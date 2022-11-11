@@ -2,7 +2,7 @@
 
 
 html {
-  scroll-padding-top: 6rem;
+  scroll-padding-top: 5rem;
 }
 
 .App-logo {
@@ -53,5 +53,5 @@ html {
 }
 
 .components a:hover {
-  color: grey;
+  color: white;
 }

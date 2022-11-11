@@ -7,7 +7,7 @@ const Language = () => {
   const images = importAll(require.context('../images/languages', false, /\.(png|jpe?g|svg)$/));
 
   return (
-    <div className='m-2 container' id="languages">
+    <div id="languages">
 
       <h2 className='mb-4'>Langages & Framework</h2>
 

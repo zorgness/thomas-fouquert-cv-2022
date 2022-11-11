@@ -1,6 +1,6 @@
 import './App.css';
 // import 'bootstrap/dist/css/bootstrap.min.css';
-import 'bootswatch/dist/lux/bootstrap.css';
+import 'bootswatch/dist/flatly/bootstrap.css';
 import Header from './components/Header';
 import Contact from './components/Contact';
 import Profile from './components/Profile';
@@ -18,7 +18,7 @@ function App() {
 
     <Header />
 
-    <div className='container components m-3'>
+    <div className='components container'>
 
     <Profile />
 
@@ -34,7 +34,7 @@ function App() {
 
     <Education />
 
-    <hr />
+
 
     <Experience />
 

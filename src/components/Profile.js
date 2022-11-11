@@ -13,16 +13,19 @@ const Profile = () => {
 
 
   return (
-    <div id="profile" className='container' key={id}>
+    <div id="profile" className='mt-5' key={id}>
 
+        <div className="d-flex align-items-center justify-content-start mb-3" >
+          <h1>{position}</h1>
+          <div alt="Profile" className='avatar mx-4' style={styles}></div>
+        </div>
 
-        {/* <div alt="Profile" className='avatar-large mx-4' style={styles}></div> */}
-        <h2>{position}</h2>
+        <div className=''>
+            <p style={{fontSize: '24px'}}>{text2}</p>
 
+            <p style={{fontSize: '24px'}}>{text1}</p>
+        </div>
 
-        <p>{text2}</p>
-
-        <p>{text1}</p>
 
     </div>
   )

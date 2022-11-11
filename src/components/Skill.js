@@ -7,7 +7,7 @@ const Skill = () => {
   const images = importAll(require.context('../images/skills', false, /\.(png|jpe?g|svg)$/));
 
   return (
-    <div id="skill" className='container'>
+    <div id="skill">
 
     <h4>Autres Compétences</h4>
 
@@ -16,7 +16,7 @@ const Skill = () => {
         skills.map(({id, name, description}) => {
           return (
 
-            <li key={id} className="list-group-item text-start " style={{border: "none"}}>
+            <li key={id} className="list-group-item text-start bg-secondary" style={{border: "none"}}>
               <img src={images[`${name}.png`]} alt={name} className='avatar-square'/>
               <span className='mx-5'>{description}</span>
             </li>

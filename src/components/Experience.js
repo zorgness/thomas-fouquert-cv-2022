@@ -4,7 +4,7 @@ import { experience } from './../Data/experience'
 const Experience = () => {
 
   return (
-    <div id="experience" className='container'>
+    <div id="experience">
 
       <h2 className='mb-4'>Experience</h2>
 
@@ -14,7 +14,7 @@ const Experience = () => {
             return (
 
               <div key={id}>
-                <h5>{name}</h5>
+                <h5 className='text-secondary'>{name}</h5>
                 <h6>{position}</h6>
                 <p>{period}</p>
                 <p>{address}</p>

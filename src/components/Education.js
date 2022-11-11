@@ -4,7 +4,7 @@ import { educations } from './../Data/educations'
 const Education = () => {
 
   return (
-    <div id="education" className="container">
+    <div id="education">
 
       <h2 className='mb-4'>Education</h2>
 
@@ -22,7 +22,9 @@ const Education = () => {
                   : <p className="mx-4">{description}</p>
                 }
 
+                <hr />
               </div>
+
             )
           })
         }

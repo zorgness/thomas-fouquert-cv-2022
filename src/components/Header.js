@@ -10,7 +10,7 @@ const Header = () => {
   return (
     <Navbar collapseOnSelect
       expand="lg"
-      bg="dark"
+      bg="primary"
       variant="dark"
       sticky='top'
       >
@@ -25,7 +25,7 @@ const Header = () => {
             >
               <Offcanvas.Header closeButton>
                 <Offcanvas.Title id={`offcanvasNavbarLabel-expand-`}>
-                  Offcanvas
+                  Menu
                 </Offcanvas.Title>
               </Offcanvas.Header>
               <Offcanvas.Body>
