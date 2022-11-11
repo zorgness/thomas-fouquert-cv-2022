@@ -4,10 +4,12 @@ import { importAll } from '../utils/importAll'
 
 const Info = () => {
 
-   const images = importAll(require.context('../images/icon-info', false, /\.(png|jpe?g|svg)$/));
+  const images = importAll(require.context('../images/icon-info', false, /\.(png|jpe?g|svg)$/));
 
   return (
     <div className='m-2'>
+
+    <h2>Informations</h2>
 
     <ul className='list-group'>
       {

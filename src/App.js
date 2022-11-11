@@ -4,6 +4,7 @@ import Header from './components/Header';
 import Info from './components/Info';
 import Profile from './components/Profile';
 import Language from './components/Language';
+import Experience from './components/Experience';
 
 function App() {
 
@@ -22,6 +23,10 @@ function App() {
     <hr />
 
     <Language />
+
+    <hr />
+
+    <Experience />
 
     <hr />
 

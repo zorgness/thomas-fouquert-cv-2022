@@ -15,7 +15,7 @@ const Profile = () => {
 
 
   return (
-    <div className='m-5 p-3' key={id}>
+    <div className='' key={id}>
 
       <h2>{position}</h2>
 
