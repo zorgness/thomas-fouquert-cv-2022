@@ -1,8 +1,8 @@
 import './App.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import 'bootswatch/dist/simplex/bootstrap.css';
+// import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootswatch/dist/lux/bootstrap.css';
 import Header from './components/Header';
-import Info from './components/Contact';
+import Contact from './components/Contact';
 import Profile from './components/Profile';
 import Language from './components/Language';
 import Experience from './components/Experience';
@@ -18,13 +18,13 @@ function App() {
 
     <Header />
 
-    <div className='container components'>
+    <div className='container components m-3'>
 
     <Profile />
 
     <hr />
 
-    <Info />
+    <Contact />
 
     <hr />
 
@@ -32,11 +32,11 @@ function App() {
 
     <hr />
 
-    <Experience />
+    <Education />
 
     <hr />
 
-    <Education />
+    <Experience />
 
     <hr />
 

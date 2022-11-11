@@ -7,14 +7,14 @@ const Language = () => {
   const images = importAll(require.context('../images/languages', false, /\.(png|jpe?g|svg)$/));
 
   return (
-    <div id="languages">
+    <div className='m-2' id="languages">
       <h2>Langages</h2>
 
-      <ul className='list-group'>
+      <ul className='list-group '>
       {
         languages.map(({id, name}) => {
           return (
-            <li key={id} className="list-group-item text-start " style={{border: "none"}}>
+            <li key={id} className="list-group-item text-start bg-secondary " style={{border: "none"}}>
               <img src={images[`${name}.png`]} alt={name} className='avatar-square'/>
               <span className='mx-5'>{name}</span>
             </li>

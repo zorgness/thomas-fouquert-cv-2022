@@ -1,8 +1,9 @@
 @import url('./styles/avatar.css');
 
-/* .App {
-  text-align: center;
-} */
+
+html {
+  scroll-padding-top: 6rem;
+}
 
 .App-logo {
   height: 40vmin;
