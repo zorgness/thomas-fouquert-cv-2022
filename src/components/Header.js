@@ -8,9 +8,14 @@ import Offcanvas from 'react-bootstrap/Offcanvas';
 const Header = () => {
 
   return (
-    <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+    <Navbar collapseOnSelect
+      expand="lg"
+      bg="dark"
+      variant="dark"
+      sticky='top'
+      >
     <Container>
-      <Navbar.Brand href="#home">Thomas Fouquert</Navbar.Brand>
+      <Navbar.Brand href="/">Thomas Fouquert</Navbar.Brand>
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
       <Navbar.Offcanvas
               id={`offcanvasNavbar-expand-`}
@@ -25,29 +30,30 @@ const Header = () => {
               </Offcanvas.Header>
               <Offcanvas.Body>
                 <Nav className="justify-content-end flex-grow-1 pe-3">
-                  <Nav.Link href="#action1">Acceuil</Nav.Link>
-                  <Nav.Link href="#action2">Profile</Nav.Link>
-                  <Nav.Link href="#action2">Languages</Nav.Link>
+
+                  <Nav.Link href="#profile">Profile</Nav.Link>
+                  <Nav.Link href="#contact">Contact</Nav.Link>
+                  <Nav.Link href="#languages">Langages</Nav.Link>
                   <NavDropdown
                     title="Informations"
                     id={`offcanvasNavbarDropdown-expand-`}
                   >
-                    <NavDropdown.Item href="#action3">
+                    <NavDropdown.Item href="#experience">
                       Expérience
                     </NavDropdown.Item>
-                    <NavDropdown.Item href="#action4">
+                    <NavDropdown.Item href="#education">
                       Education
                     </NavDropdown.Item>
-                    <NavDropdown.Item href="#action4">
-                      Projet
+                    <NavDropdown.Item href="#project">
+                      Project
                     </NavDropdown.Item>
                     <NavDropdown.Item href="#action4">
                       Compétences
                     </NavDropdown.Item>
-                    <NavDropdown.Divider />
+                    {/* <NavDropdown.Divider />
                     <NavDropdown.Item href="#action5">
                       Contact
-                    </NavDropdown.Item>
+                    </NavDropdown.Item> */}
                   </NavDropdown>
                 </Nav>
 

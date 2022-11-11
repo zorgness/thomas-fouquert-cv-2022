@@ -1,11 +1,12 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Header from './components/Header';
-import Info from './components/Info';
+import Info from './components/Contact';
 import Profile from './components/Profile';
 import Language from './components/Language';
 import Experience from './components/Experience';
 import Education from './components/Education';
+import Project from './components/Project'
 
 function App() {
 
@@ -32,6 +33,10 @@ function App() {
     <hr />
 
     <Education />
+
+    <hr />
+
+    <Project />
 
     <hr />
 

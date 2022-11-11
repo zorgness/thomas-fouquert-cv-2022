@@ -5,8 +5,9 @@ const Education = () => {
   console.log(educations)
 
   return (
-    <div>
-    <h2>Education</h2>
+    <div id="education">
+
+      <h2>Education</h2>
 
       <div>
         {
@@ -15,8 +16,7 @@ const Education = () => {
               <div key={id}>
                 <h4>{year}</h4>
                 <h4>{name}</h4>
-
-                <p>{description}</p>
+                <p style={{width: '200px', fontSize: '8px'}} className="mx-4">{description}</p>
 
               </div>
             )

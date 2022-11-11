@@ -4,7 +4,7 @@ import { experience } from './../Data/experience'
 const Experience = () => {
 
   return (
-    <div>
+    <div id="experience">
       <h2>Experience</h2>
 
       <div>

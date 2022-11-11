@@ -15,7 +15,7 @@ const Profile = () => {
 
 
   return (
-    <div className='' key={id}>
+    <div id="profile" key={id}>
 
       <h2>{position}</h2>
 
