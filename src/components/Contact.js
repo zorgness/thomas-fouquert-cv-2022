@@ -7,9 +7,9 @@ const Contact = () => {
   const images = importAll(require.context('../images/icon-info', false, /\.(png|jpe?g|svg)$/));
 
   return (
-    <div  id="contact">
+    <div className='m-2 container' id="contact">
 
-      <h2>Contact</h2>
+      <h2 className='mb-4'>Contact</h2>
 
       <ul className='list-group'>
         {

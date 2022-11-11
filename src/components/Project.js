@@ -4,8 +4,9 @@ import { projects } from '../Data/projects'
 const Project = () => {
 
   return (
-    <div id="project">
-      <h2>Project</h2>
+    <div id="project" className='container'>
+
+      <h2 className='mb-4'>Project</h2>
 
       <div>
         {

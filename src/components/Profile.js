@@ -9,22 +9,21 @@ const Profile = () => {
     backgroundSize: 'cover'
   };
 
-  const {id, position, text} = profile[0]
+  const {id, position, text1, text2} = profile[0]
 
 
   return (
-    <div id="profile" key={id}>
+    <div id="profile" className='container' key={id}>
 
-      <h2>{position}</h2>
 
-      <p>{text}</p>
+        {/* <div alt="Profile" className='avatar-large mx-4' style={styles}></div> */}
+        <h2>{position}</h2>
 
-      <div
-      alt="Profile"
-      className='avatar-large'
-      style={styles}>
 
-      </div>
+        <p>{text2}</p>
+
+        <p>{text1}</p>
+
     </div>
   )
 }

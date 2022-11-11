@@ -7,7 +7,7 @@ const Skill = () => {
   const images = importAll(require.context('../images/skills', false, /\.(png|jpe?g|svg)$/));
 
   return (
-    <div id="skill">
+    <div id="skill" className='container'>
 
     <h4>Autres Compétences</h4>
 

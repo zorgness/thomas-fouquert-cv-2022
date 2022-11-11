@@ -4,8 +4,9 @@ import { experience } from './../Data/experience'
 const Experience = () => {
 
   return (
-    <div id="experience">
-      <h2>Experience</h2>
+    <div id="experience" className='container'>
+
+      <h2 className='mb-4'>Experience</h2>
 
       <div>
         {
@@ -13,17 +14,17 @@ const Experience = () => {
             return (
 
               <div key={id}>
-              <h4>{position}</h4>
-              <h4>{name}</h4>
-              <p>{period}</p>
-              <p>{address}</p>
-              <p>{phone}</p>
+                <h5>{name}</h5>
+                <h6>{position}</h6>
+                <p>{period}</p>
+                <p>{address}</p>
+                <p>{phone}</p>
 
-              <ul className='list-group'>
+              <ul className='list-group mx-4'>
               {
                 tasks.map(task => {
                   return (
-                    <li key={task} className="list-group-item">{task}</li>
+                    <li key={task} className="">{task}</li>
                   )
                 })
               }

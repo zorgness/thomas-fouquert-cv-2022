@@ -37,6 +37,7 @@ const Header = () => {
                   <NavDropdown
                     title="Informations"
                     id={`offcanvasNavbarDropdown-expand-`}
+                    menuVariant="dark"
                   >
                     <NavDropdown.Item href="#experience">
                       Expérience

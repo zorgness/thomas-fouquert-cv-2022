@@ -4,21 +4,21 @@ import { educations } from './../Data/educations'
 const Education = () => {
 
   return (
-    <div id="education">
+    <div id="education" className="container">
 
-      <h2>Education</h2>
+      <h2 className='mb-4'>Education</h2>
 
       <div>
         {
           educations.map(({id, year, name, description, type}) => {
             return (
               <div key={id}>
-                <h4>{year}</h4>
-                <h4>{name}</h4>
+                <h5 className='text-secondary'>{year}</h5>
+                <h5>{name}</h5>
 
                 {
                   type === 'link'
-                  ? <p className="mx-4"><a href={description} >Lien du certificat</a></p>
+                  ? <a href={description} className="btn btn-primary text-white mx-4" >Lien du certificat</a>
                   : <p className="mx-4">{description}</p>
                 }
 
