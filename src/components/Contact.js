@@ -7,7 +7,7 @@ const Contact = () => {
   const images = importAll(require.context('../images/icon-info', false, /\.(png|jpe?g|svg)$/));
 
   return (
-    <div  id="contact">
+    <div id="contact">
 
       <h2 className='mb-4'>Contact</h2>
 
