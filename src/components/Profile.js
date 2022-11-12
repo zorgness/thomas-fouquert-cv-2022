@@ -21,7 +21,7 @@ const Profile = () => {
 
 
   return (
-    <div id="profile" className='mt-5' key={id}>
+    <div id="profile" className='my-5' key={id}>
 
         <div className="text-end m-3 lap-top">
 
@@ -37,9 +37,8 @@ const Profile = () => {
 
         <h4 className='title2 text-decoration-underline text-center'>{position}</h4>
 
-        <div className="d-flex align-items-center justify-content-start mb-3" >
+        <div className="d-flex align-items-center justify-content-start mb-5" >
           <h1 className='title text-decoration-underline'>{position}</h1>
-
           <div alt="Profile" className='avatar mx-4 lap-top' style={styles}></div>
         </div>
 

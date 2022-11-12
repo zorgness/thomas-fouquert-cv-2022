@@ -6,16 +6,9 @@ export const footerData = [
   {
     id: 2,
     language: 'Bootstrap'
-  }
-]
-
-export const production = [
-  {
-    id: 1,
-    name: 'Heroku'
   },
   {
-    id: 2,
-    name: 'NameCheap'
+    id: 3,
+    language: 'Redux'
   }
 ]
