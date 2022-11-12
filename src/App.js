@@ -11,6 +11,7 @@ import Project from './components/Project';
 import Skill from './components/Skill';
 import AboutReact from './components/AboutReact';
 import Footer from './components/Footer';
+import ToggleDarkMode from './components/ToggleDarkMode';
 
 function App() {
 
@@ -19,6 +20,10 @@ function App() {
     <div className="App">
 
     <Header />
+
+    <div className='m-5' style={{position: 'relative'}}>
+      <ToggleDarkMode />
+    </div>
 
     <div className='components container'>
 

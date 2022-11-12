@@ -13,9 +13,9 @@ const AboutReact = () => {
         {
           aboutReact.map(({id, name, data}) => {
             return (
-              <li key={id} className="list-group-item border-0">
+              <li key={id} className="list-group-item border-0 bg-secondary">
                 <div className='d-flex flex-column'>
-                  <h4 className='mb-2 text-secondary'>{name}</h4>
+                  <h4 className='mb-2 text-white'>{name}</h4>
                   <pre>{data}</pre>
                 </div>
               </li>
