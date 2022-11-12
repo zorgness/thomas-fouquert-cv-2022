@@ -19,9 +19,26 @@ html {
 .components a:hover {
   color: white;
 }
+@media (min-width: 768px) {
+  html {
+    scroll-padding-top: 15rem;
+  }
+  .title {
+    display: block;
+  }
+  .title2 {
+    display: none;
+  }
+}
 
 @media (max-width: 768px) {
   html {
     scroll-padding-top: 15rem;
+  }
+  .title {
+    display: none;
+  }
+  .title2 {
+    display: block;
   }
 }

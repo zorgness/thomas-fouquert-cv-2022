@@ -16,14 +16,15 @@ const Profile = () => {
     <div id="profile" className='mt-5' key={id}>
 
         <div className="d-flex align-items-center justify-content-start mb-3" >
-          <h1>{position}</h1>
+          <h1 className='title'>{position}</h1>
+          <h3 className='title2'>{position}</h3>
           <div alt="Profile" className='avatar mx-4' style={styles}></div>
         </div>
 
         <div className=''>
-            <p style={{fontSize: '24px'}}>{text2}</p>
+            <p style={{fontSize: '20px'}}>{text2}</p>
 
-            <p style={{fontSize: '24px'}}>{text1}</p>
+            <p style={{fontSize: '20px'}}>{text1}</p>
         </div>
 
 
