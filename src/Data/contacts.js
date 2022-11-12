@@ -1,4 +1,4 @@
-export const info = [
+export const contacts = [
   {
     id: 1,
     name: 'email',
@@ -21,12 +21,12 @@ export const info = [
     id:4,
     name: 'github',
     type: 'link',
-    data: 'https://github.com/zorgness'
+    data: 'github.com/zorgness'
   },
   {
     id:5,
     name: 'linkedin',
     type: 'link',
-    data: 'www.linkedin.com/in/thomas- fouquert-b70795238/'
+    data: 'www.linkedin.com/in/thomas-fouquert-b70795238/'
   }
 ]

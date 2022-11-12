@@ -9,6 +9,8 @@ import Experience from './components/Experience';
 import Education from './components/Education';
 import Project from './components/Project';
 import Skill from './components/Skill';
+import AboutReact from './components/AboutReact';
+import Footer from './components/Footer';
 
 function App() {
 
@@ -40,6 +42,10 @@ function App() {
 
     <hr />
 
+    <AboutReact />
+
+    <hr />
+
     <Project />
 
     <hr />
@@ -47,6 +53,8 @@ function App() {
     <Skill />
 
     </div>
+
+    <Footer />
 
 
     </div>

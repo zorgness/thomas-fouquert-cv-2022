@@ -6,7 +6,7 @@ const Experience = () => {
   return (
     <div id="experience">
 
-      <h2 className='mb-4'>Experience</h2>
+      <h2 className='mb-4'>Expérience</h2>
 
       <div>
         {

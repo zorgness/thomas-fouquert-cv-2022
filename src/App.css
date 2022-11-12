@@ -1,8 +1,5 @@
 @import url('./styles/avatar.css');
-
-html {
-  scroll-padding-top: 4rem;
-}
+@import url('./styles/footer.css');
 
 .App a {
   text-decoration: none;
@@ -19,19 +16,26 @@ html {
 .components a:hover {
   color: white;
 }
-@media (min-width: 768px) {
+@media (min-width: 1001px) {
   html {
-    scroll-padding-top: 15rem;
+    scroll-padding-top: 4rem;
   }
   .title {
     display: block;
   }
   .title2 {
     display: none;
+  }
+  .phone {
+    display: none;
+  }
+
+  .lap-top {
+    display: block;
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1000px) {
   html {
     scroll-padding-top: 15rem;
   }
@@ -40,5 +44,12 @@ html {
   }
   .title2 {
     display: block;
+  }
+
+  .phone {
+    display: block;
+  }
+  .lap-top {
+    display: none;
   }
 }

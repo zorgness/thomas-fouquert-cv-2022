@@ -1,5 +1,5 @@
 import React from 'react'
-import { info } from '../Data/info'
+import { contacts } from '../Data/contacts'
 import { importAll } from '../utils/importAll'
 
 const Contact = () => {
@@ -13,7 +13,7 @@ const Contact = () => {
 
       <ul className='list-group'>
         {
-          info.map(({id, name, data, type}) => {
+          contacts.map(({id, name, data, type}) => {
             return (
 
               <li key={id} className="list-group-item text-start  bg-secondary" style={{border: "none"}}>
@@ -21,7 +21,7 @@ const Contact = () => {
 
                    {type === 'email' && <a href={`mailto:${data}`} className='mx-2'>{data}</a>}
                    {type === "phone" && <a href={`tel:${data}`} className='mx-2'>{data}</a>}
-                   {type === 'link'  && <a href={data} className='mx-2'>{data}</a>}
+                   {type === 'link'  && <a href={`https://${data}`} className='mx-2'>{data}</a>}
                    {type === 'text' && <span className='mx-2'>{data}</span>}
               </li>
 

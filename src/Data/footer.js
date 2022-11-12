@@ -5,7 +5,7 @@ export const footerData = [
   },
   {
     id: 2,
-    language: 'Reactb Bootstrap'
+    language: 'Bootstrap'
   }
 ]
 

@@ -18,7 +18,7 @@ const Education = () => {
 
                 {
                   type === 'link'
-                  ? <a href={description} className="btn btn-primary text-white mx-4" >Lien du certificat</a>
+                  ? <a href={description} className="btn btn-success text-white mx-4" >Lien du certificat</a>
                   : <p className="mx-4">{description}</p>
                 }
 

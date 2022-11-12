@@ -9,7 +9,7 @@ export const projects = [
     ],
     link: "https://castro-hairdresser-fron-web.herokuapp.com/",
     imageUrl: "https://i.ibb.co/Wv90CjM/Capture-d-e-cran-2022-11-11-a-16-14-18.png",
-    description: "Je travaille actuellement sur un site utilisant une API REST réaliser avec Symfony V6 API/Platform en Back-end. Le Front-end est réalisé avec React.js, Redux, Bootstrap, AWS S3 pour le stockage image. Voici le lien de la version bêta"
+    description: "Site utilisant une API REST réaliser avec Symfony V6 API/Platform en Back-end. Le Front-end est réalisé avec React.js, Redux, Bootstrap, AWS S3 pour le stockage image avec une partie Administrateur pour gérer les contenus. Voici le lien de la version bêta"
   },
   {
     id: 2,

@@ -10,7 +10,7 @@ const Project = () => {
 
       <div>
         {
-          projects.map(({id, language, imageUrl, link, name, description}) => {
+          projects.map(({id, language, imageUrl, link, name, description, github}) => {
             return (
 
               <div key={id} className="mb-3">
@@ -22,12 +22,9 @@ const Project = () => {
                   <img src={imageUrl} alt={name} className="avatar-square2" />
 
                   <div>
-                    <a href={link} className="btn btn-primary">lien vers le site</a>
+                    <a href={link} className="btn btn-success text-white">lien vers le site</a>
                   </div>
                 </div>
-
-
-
               </div>
 
             )

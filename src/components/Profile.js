@@ -1,6 +1,8 @@
 import React from 'react'
 import { profile } from './../Data/profile'
 import imgProfile from '../images/profile/profile.jpg'
+import Button from 'react-bootstrap/Button';
+import { downloadCv } from '../utils/downloadCv';
 
 const Profile = () => {
 
@@ -11,14 +13,34 @@ const Profile = () => {
 
   const {id, position, text1, text2} = profile[0]
 
+  const handleClick = () => {
+
+    downloadCv()
+
+}
+
 
   return (
     <div id="profile" className='mt-5' key={id}>
 
+        <div className="text-end m-3 lap-top">
+
+          <Button onClick={handleClick} className='btn btn-success'>Dowload CV</Button>
+        </div>
+
+        <div className='phone'>
+          <div className="d-flex align-items-center justify-content-around mb-3">
+            <Button onClick={handleClick} className='btn btn-success'>Dowload CV</Button>
+            <div alt="Profile" className='avatar' style={styles}></div>
+          </div>
+        </div>
+
+        <h4 className='title2 text-decoration-underline text-center'>{position}</h4>
+
         <div className="d-flex align-items-center justify-content-start mb-3" >
-          <h1 className='title'>{position}</h1>
-          <h3 className='title2'>{position}</h3>
-          <div alt="Profile" className='avatar mx-4' style={styles}></div>
+          <h1 className='title text-decoration-underline'>{position}</h1>
+
+          <div alt="Profile" className='avatar mx-4 lap-top' style={styles}></div>
         </div>
 
         <div className=''>
