@@ -17,7 +17,13 @@ const Header = () => {
     <Container>
       <Navbar.Brand href="/">Thomas Fouquert</Navbar.Brand>
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-      <Navbar.Offcanvas
+      <Navbar.Collapse id="navbarScroll">
+          {/* <Nav
+            className="me-auto my-2 my-lg-0"
+            style={{ maxHeight: '100px' }}
+            navbarScroll
+          > */}
+      {/* <Navbar.Offcanvas
               id={`offcanvasNavbar-expand-`}
               aria-labelledby={`offcanvasNavbarLabel-expand-`}
               placement="end"
@@ -28,7 +34,7 @@ const Header = () => {
                   Menu
                 </Offcanvas.Title>
               </Offcanvas.Header>
-              <Offcanvas.Body>
+              <Offcanvas.Body> */}
                 <Nav className="justify-content-end flex-grow-1 pe-3">
 
                   <Nav.Link href="#profile">Profile</Nav.Link>
@@ -39,27 +45,24 @@ const Header = () => {
                     id={`offcanvasNavbarDropdown-expand-`}
                     menuVariant="dark"
                   >
-                    <NavDropdown.Item href="#experience">
+                    <NavDropdown.Item href="/#experience">
                       Expérience
                     </NavDropdown.Item>
-                    <NavDropdown.Item href="#education">
+                    <NavDropdown.Item href="/#education">
                       Education
                     </NavDropdown.Item>
-                    <NavDropdown.Item href="#project">
+                    <NavDropdown.Item href="/#project">
                       Project
                     </NavDropdown.Item>
-                    <NavDropdown.Item href="#skill">
+                    <NavDropdown.Item href="/#skill">
                       Compétences
                     </NavDropdown.Item>
-                    {/* <NavDropdown.Divider />
-                    <NavDropdown.Item href="#action5">
-                      Contact
-                    </NavDropdown.Item> */}
                   </NavDropdown>
                 </Nav>
 
-              </Offcanvas.Body>
-            </Navbar.Offcanvas>
+              {/* </Offcanvas.Body>
+            </Navbar.Offcanvas> */}
+            </Navbar.Collapse>
     </Container>
   </Navbar>
   )
