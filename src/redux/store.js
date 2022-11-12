@@ -3,6 +3,6 @@ import darkModeReducer from './reducer/darkModeReducer'
 
 export const store = configureStore({
   reducer: {
-    mode: darkModeReducer,
+    mode: darkModeReducer
   },
 })
