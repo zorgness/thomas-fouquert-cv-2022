@@ -19,7 +19,7 @@ export const projects = [
       { frontEnd : "https://github.com/ThomaSneazy/hello-buddy"},
       { backEnd : ""}
     ],
-    link: "http://hello--buddy.herokuapp.com/",
+    link: "http://hello--buddy-v2.herokuapp.com/",
     imageUrl: "https://i.ibb.co/QCmKTQj/Capture-d-e-cran-2022-11-11-a-16-10-15.png",
     description: "Application de partage d'activités sportives, réalisées dans le cadre de la formation Web du Wagon Marseille en équipe de 4 personnes. Utilisation du framework Ruby on Rails Back et Front mais également de Javascript pour la messagerie entre utilisateurs et les notifications en temps réel. Mise en production via Heroku."
   }
