@@ -25,7 +25,7 @@ const Profile = () => {
 
         <div className="text-end m-3 lap-top">
 
-          <Button onClick={handleClick} className='btn btn-success'>Dowload CV</Button>
+          <Button onClick={handleClick} className='btn btn-success'>Download CV</Button>
         </div>
 
         <div className='phone'>
