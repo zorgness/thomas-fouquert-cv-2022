@@ -9,7 +9,6 @@ import Experience from './components/Experience';
 import Education from './components/Education';
 import Project from './components/Project';
 import Skill from './components/Skill';
-import AboutReact from './components/AboutReact';
 import Footer from './components/Footer';
 import ToggleDarkMode from './components/ToggleDarkMode';
 
@@ -44,10 +43,6 @@ function App() {
 
 
     <Experience />
-
-    <hr />
-
-    <AboutReact />
 
     <hr />
 

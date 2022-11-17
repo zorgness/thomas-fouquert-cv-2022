@@ -13,7 +13,7 @@ const Experience = () => {
           experience.map(({id, position, period, name, address, phone, tasks}) => {
             return (
 
-              <div key={id}>
+              <div key={id} className="mb-5">
                 <h5 className='text-secondary'>{name}</h5>
                 <h6>{position}</h6>
                 <p>{period}</p>
