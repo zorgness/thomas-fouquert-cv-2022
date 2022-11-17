@@ -35,9 +35,6 @@ const Header = () => {
                     <NavDropdown.Item href="/#education">
                       Education
                     </NavDropdown.Item>
-                    <NavDropdown.Item href="/#aboutReact">
-                      React
-                    </NavDropdown.Item>
                     <NavDropdown.Item href="/#project">
                       Project
                     </NavDropdown.Item>
