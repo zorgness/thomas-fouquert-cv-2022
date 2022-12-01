@@ -8,7 +8,9 @@ const Profile = () => {
 
   const styles = {
     backgroundImage: `url(${imgProfile})`,
-    backgroundSize: 'cover'
+    backgroundSize: 'cover',
+    backgroundPosition: 'center top -7px'
+
   };
 
   const {id, position, text1, text2} = profile[0]
