@@ -19,7 +19,7 @@ export const projects = [
       { frontEnd : "https://github.com/zorgness/castro-salon-hairdresser"},
       {backEnd: "https://github.com/zorgness/castro-salon"}
     ],
-    link: "https://castro-hairdresser-fron-web.herokuapp.com/",
+    link: "https://decastro-hairstylist-front-web.herokuapp.com/",
     imageUrl: "https://i.ibb.co/Wv90CjM/Capture-d-e-cran-2022-11-11-a-16-14-18.png",
     description: "Site utilisant une API REST réaliser avec Symfony V6 API/Platform en Back-end. Le Front-end est réalisé avec React.js, Redux, Bootstrap, AWS S3 pour le stockage image avec une partie Administrateur pour gérer les contenus. Voici le lien de la version bêta"
   },
