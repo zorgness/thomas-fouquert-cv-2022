@@ -1,6 +1,6 @@
-@import url('./styles/avatar.css');
-@import url('./styles/footer.css');
-@import url('./styles/toggle-dark-mode.css');
+@import url("./styles/avatar.css");
+@import url("./styles/footer.css");
+@import url("./styles/toggle-dark-mode.css");
 
 .App a {
   text-decoration: none;

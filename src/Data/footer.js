@@ -1,14 +1,14 @@
 export const footerData = [
   {
     id: 1,
-    language: 'React JS'
+    language: "React JS",
   },
   {
     id: 2,
-    language: 'Bootstrap'
+    language: "Bootstrap",
   },
   {
     id: 3,
-    language: 'Redux'
-  }
-]
+    language: "Redux",
+  },
+];

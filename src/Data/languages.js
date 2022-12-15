@@ -1,26 +1,26 @@
 export const languages = [
   {
     id: 1,
-    name: 'HTML'
+    name: "HTML",
   },
   {
     id: 2,
-    name: 'CSS'
+    name: "CSS",
   },
   {
     id: 3,
-    name: 'SCSS'
+    name: "SCSS",
   },
   {
     id: 4,
-    name: 'React-JS'
+    name: "React-JS",
   },
   {
     id: 5,
-    name: 'Redux'
+    name: "Redux",
   },
   {
     id: 6,
-    name: 'Bootstrap'
-  }
-]
+    name: "Bootstrap",
+  },
+];
