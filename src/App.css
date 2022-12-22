@@ -2,12 +2,37 @@
 @import url("./styles/footer.css");
 @import url("./styles/toggle-dark-mode.css");
 
+.App-logo {
+  height: 48vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 3s linear;
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: translateY(-30px);
+  }
+  to {
+    transform: translateY(0px);
+  }
+}
 .App a {
   text-decoration: none;
 }
 
 .container {
   vertical-align: baseline;
+}
+
+.loader-container {
+  background: #2c3e50;
+  height: 100vh;
+  color: #18bc9c;
 }
 
 .components a {

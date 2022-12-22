@@ -1,5 +1,6 @@
 import React from "react";
 import { profile } from "./../Data/profile";
+import TextProfile from "./TextProfile";
 import imgProfile from "../images/profile/profile.jpg";
 import Button from "react-bootstrap/Button";
 import { downloadCv } from "../utils/downloadCv";
@@ -44,12 +45,8 @@ const Profile = () => {
       </div>
 
       <div className="">
-        {text.map((element) => {
-          return (
-            <p key={element.id} style={{ fontSize: "20px" }}>
-              {element.text}
-            </p>
-          );
+        {text.map(({ id, text }) => {
+          return <TextProfile key={id} text={text} />;
         })}
       </div>
     </div>
