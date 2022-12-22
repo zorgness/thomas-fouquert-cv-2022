@@ -1,11 +1,15 @@
 import React from "react";
-import ghost from "./images/ghost.png";
+import Spinner from "react-bootstrap/Spinner";
 
 const Loader = () => {
   return (
     <div className="loader-container">
       <div className="text-center">
-        <img src={ghost} alt="" className="App-logo mt-5" /> <h3>Loading...</h3>
+        <h2>Loading</h2>
+        <Spinner animation="grow" className="m-2" size="sm" />
+        <Spinner animation="grow" className="m-2" size="sm" />
+        <Spinner animation="grow" className="m-2" size="sm" />
+        <Spinner animation="grow" className="m-2" size="sm" />
       </div>
     </div>
   );

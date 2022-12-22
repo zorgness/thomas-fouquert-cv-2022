@@ -9,7 +9,7 @@ export const profile = [
       },
       {
         id: 2,
-        text: "Je me forme depuis presque deux ans et mon niveau est celui d'un développeur junior. J'ai une trés grande motivation, je souhaiterais intégrer une équipe et devenir le plus rapidement possible un élément de valeur pour votre entreprise.",
+        text: "Je me forme depuis deux ans, d'abord en autodidacte puis à la suite d'une formation. J'ai une trés grande motivation, je souhaiterais intégrer une équipe et devenir le plus rapidement possible un élément de valeur pour votre entreprise.",
       },
       {
         id: 3,

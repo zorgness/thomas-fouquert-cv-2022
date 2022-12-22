@@ -46,7 +46,7 @@ const Profile = () => {
 
       <div className="">
         {text.map(({ id, text }) => {
-          return <TextProfile key={id} text={text} />;
+          return <TextProfile key={id} position={id} text={text} />;
         })}
       </div>
     </div>

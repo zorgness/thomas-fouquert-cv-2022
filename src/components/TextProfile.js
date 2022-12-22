@@ -1,7 +1,16 @@
 import React from "react";
+import {
+  highLightWordInText,
+  wordsToHighlight,
+} from "../utils/highlightWordInText";
 
 const TextProfile = ({ text }) => {
-  return <p style={{ fontSize: "20px" }}>{text}</p>;
+  const toDisplay = highLightWordInText(text, wordsToHighlight);
+  return (
+    <>
+      <p dangerouslySetInnerHTML={{ __html: toDisplay }}></p>
+    </>
+  );
 };
 
 export default TextProfile;

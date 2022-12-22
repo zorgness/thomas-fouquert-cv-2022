@@ -33,6 +33,9 @@
   background: #2c3e50;
   height: 100vh;
   color: #18bc9c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .components a {
