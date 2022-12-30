@@ -4,28 +4,24 @@ export const skills = [
     name: "Github",
     description: "Github",
   },
+
   {
     id: 2,
-    name: "Symfony",
-    description: "Notions Symfony Api/platform ",
+    name: "Test",
+    description: "Développement TDD, Jest React testing library",
   },
   {
     id: 3,
-    name: "Test",
-    description: "Développement TDD",
-  },
-  {
-    id: 4,
     name: "English",
     description: "Anglais courant",
   },
   {
-    id: 5,
+    id: 4,
     name: "Docker",
     description: "Notions Docker container",
   },
   {
-    id: 6,
+    id: 5,
     name: "Figma",
     description: "Figma, prototypage",
   },

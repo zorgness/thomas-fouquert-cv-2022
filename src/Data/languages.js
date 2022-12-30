@@ -17,10 +17,14 @@ export const languages = [
   },
   {
     id: 5,
-    name: "Redux",
+    name: "Symfony",
   },
   {
     id: 6,
+    name: "Redux",
+  },
+  {
+    id: 7,
     name: "Bootstrap",
   },
 ];
