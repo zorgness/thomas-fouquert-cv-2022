@@ -10,7 +10,7 @@ const Project = () => {
         {projects.map(
           ({ id, language, imageUrl, link, name, description, github }) => {
             return (
-              <div key={id} className="mb-3">
+              <div key={id} className="mb-5">
                 <h4>{language}</h4>
                 <h5 className="text-secondary">{name}</h5>
                 <p>{description}</p>
@@ -18,10 +18,26 @@ const Project = () => {
                 <div className="d-flex flex-wrap justify-content-between">
                   <img src={imageUrl} alt={name} className="avatar-square2" />
 
-                  <div>
+                  <div className="d-flex flex-column gap-3">
                     <a href={link} className="btn btn-success text-white">
                       lien vers le site
                     </a>
+
+                    <a
+                      href={github[0].frontEnd}
+                      className="btn btn-secondary text-white"
+                    >
+                      code front
+                    </a>
+
+                    {github[1].backEnd !== null ? (
+                      <a
+                        href={github[1].backEnd}
+                        className="btn btn-info text-white"
+                      >
+                        code back
+                      </a>
+                    ) : null}
                   </div>
                 </div>
               </div>

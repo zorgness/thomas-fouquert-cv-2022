@@ -17,7 +17,7 @@ export const projects = [
     name: "Salon Castro",
     language: "Application Symfony React Redux",
     github: [
-      { frontEnd: "https://github.com/zorgness/castro-salon-hairdresser" },
+      { frontEnd: "https://github.com/zorgness/castro-salon-hairdresser-v2" },
       { backEnd: "https://github.com/zorgness/castro-salon" },
     ],
     link: "https://decastro-hairstylist-front-web.herokuapp.com/",
@@ -28,11 +28,23 @@ export const projects = [
   },
   {
     id: 3,
+    name: "Clone Netflix",
+    language: "Application React",
+    github: [
+      { frontEnd: "https://github.com/zorgness/react-netflix-clone" },
+      { backEnd: null },
+    ],
+    link: "https://63ae9ff02e51ae3cb663af04--leafy-klepon-710f10.netlify.app/",
+    imageUrl: "https://i.ibb.co/jbT9tgw/netflix.jpg",
+    description: "Clone de Netflix réaliser lors du bootcamp React Mastery",
+  },
+  {
+    id: 4,
     name: "Hello buddy",
     language: "Application Rails, Javascript stimulus",
     github: [
       { frontEnd: "https://github.com/ThomaSneazy/hello-buddy" },
-      { backEnd: "" },
+      { backEnd: null },
     ],
     link: "http://hello--buddy-v2.herokuapp.com/",
     imageUrl:
@@ -41,5 +53,3 @@ export const projects = [
       "Application de partage d'activités sportives, réalisées dans le cadre de la formation Web du Wagon Marseille en équipe de 4 personnes. Utilisation du framework Ruby on Rails Back et Front mais également de Javascript pour la messagerie entre utilisateurs et les notifications en temps réel. Mise en production via Heroku.",
   },
 ];
-
-// <a href="https://ibb.co/Q8HWy6J"><img src="https://i.ibb.co/3fFxg0T/coccktailbox.jpg" alt="coccktailbox" border="0"></a>
