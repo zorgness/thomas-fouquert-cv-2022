@@ -18,10 +18,13 @@ export const highLightWordInText = (_string, _charToReplace) => {
 
 export const wordsToHighlight = [
   "CDI",
+  "Aix-en-Provence Marseille",
   "deux ans",
-  "intégrer une équipe",
-  "élément de valeur",
+  "alternance",
+  "OpenClassroom",
+  "PHP",
   "React.JS ",
   "Symfony",
+  "Wagon Marseille",
   "je suis totalement disposé à faire une période d'essai",
 ];

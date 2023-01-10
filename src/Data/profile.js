@@ -5,15 +5,15 @@ export const profile = [
     text: [
       {
         id: 1,
-        text: "Je suis à la recherche d'un emploi en CDI (temps plein) sur la zone d'Aix-en-Provence Marseille.",
+        text: "Je suis à la recherche d'un contrat en alternance sur la zone d'Aix-en-Provence Marseille, suite à ma selection pour le parcours en alternance Développeur d'application - PHP/Symfony chez OpenClassroom. ",
       },
       {
         id: 2,
-        text: "Je me forme depuis deux ans, d'abord en autodidacte puis à la suite d'une formation. J'ai une trés grande motivation, je souhaiterais intégrer une équipe et devenir le plus rapidement possible un élément de valeur pour votre entreprise.",
+        text: "Je me forme depuis deux ans, d'abord en autodidacte puis à la suite d'une formation au Wagon Marseille.",
       },
       {
         id: 3,
-        text: "Je me spécialise actuellement sur React.JS et son écosystème, j'ai également de très bonnes notions en Back-end (principalement Symfony).",
+        text: "Je me spécialise actuellement sur PHP Symfony ainsi que React.JS et son écosystème",
       },
       {
         id: 4,
@@ -21,7 +21,7 @@ export const profile = [
       },
       {
         id: 5,
-        text: "Vous pouvez me contacter pour plus d' informations, de plus étant actuellement en recherche d'emploi je suis totalement disposé à faire une période d'essai de 2 semaines non rémunérée aux travers d'une PMSP encadrée par Pôle emploi ",
+        text: "Vous pouvez me contacter pour plus d' informations, de plus étant actuellement en recherche d'emploi je suis totalement disposé à faire une période d'essai de 2 semaines aux travers d'une PMSP encadrée par Pôle emploi ",
       },
     ],
   },
