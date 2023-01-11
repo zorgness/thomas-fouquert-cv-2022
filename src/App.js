@@ -13,6 +13,7 @@ import Footer from "./components/Footer";
 import Loader from "././Loader";
 import ToggleDarkMode from "./components/ToggleDarkMode";
 import { checkDataAgeToCleanLocaleStorage } from "./cleanStorage/CleanStorage";
+import { useAnimationOnScroll } from "./utils/animationOnScroll";
 
 function App() {
   const checkStorageDate = () => {
@@ -24,8 +25,13 @@ function App() {
 
   const [loading, setLoading] = useState(true);
 
+  const blocks = document.querySelectorAll(".block");
+
+  useAnimationOnScroll(blocks);
+
   useEffect(() => {
     checkStorageDate();
+
     if (localStorage.getItem("alreadyLoaded")) {
       setLoading(false);
     }
@@ -56,25 +62,33 @@ function App() {
 
             <hr />
 
-            <Contact />
+            <div className="block left">
+              <Contact />
+            </div>
 
             <hr />
-
-            <Language />
-
-            <hr />
-
-            <Education />
-
-            <Experience />
+            <div className="block right">
+              <Language />
+            </div>
 
             <hr />
+            <div className="block left">
+              <Education />
+            </div>
 
-            <Project />
+            <div className="block right">
+              <Experience />
+            </div>
 
             <hr />
+            <div className="block left">
+              <Project />
+            </div>
 
-            <Skill />
+            <hr />
+            <div className="block right">
+              <Skill />
+            </div>
           </div>
 
           <Footer />
