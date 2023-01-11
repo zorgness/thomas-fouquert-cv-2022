@@ -17,10 +17,6 @@ export const profile = [
       },
       {
         id: 4,
-        text: "J'ai eu diverses expériences professionelles, je suis une personne aimable avec mes collaborateurs et je n'ai aucun probléme à m'adapter.",
-      },
-      {
-        id: 5,
         text: "Vous pouvez me contacter pour plus d' informations, de plus étant actuellement en recherche d'emploi je suis totalement disposé à faire une période d'essai de 2 semaines aux travers d'une PMSP encadrée par Pôle emploi ",
       },
     ],
