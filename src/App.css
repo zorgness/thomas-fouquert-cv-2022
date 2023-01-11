@@ -1,6 +1,7 @@
 @import url("./styles/avatar.css");
 @import url("./styles/footer.css");
 @import url("./styles/toggle-dark-mode.css");
+@import url("./styles/animation.css");
 
 .App-logo {
   height: 48vmin;
