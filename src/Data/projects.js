@@ -29,7 +29,7 @@ export const projects = [
   {
     id: 3,
     name: "Clone Netflix",
-    language: "Application React",
+    language: "Application React, material UI",
     github: [
       { frontEnd: "https://github.com/zorgness/react-netflix-clone" },
       { backEnd: null },
@@ -40,6 +40,18 @@ export const projects = [
   },
   {
     id: 4,
+    name: "Dashboard front responsive",
+    github: [
+      { frontEnd: "https://github.com/zorgness/ondilo-front-end-test" },
+      { backEnd: null },
+    ],
+    link: "https://bejewelled-sherbet-c04f98.netlify.app/",
+    imageUrl:
+      "https://i.ibb.co/bXv5VCk/Capture-d-e-cran-2023-01-07-a-15-02-20-Large.jpg",
+    description: "Interface de gestion",
+  },
+  {
+    id: 5,
     name: "Hello buddy",
     language: "Application Rails, Javascript stimulus",
     github: [

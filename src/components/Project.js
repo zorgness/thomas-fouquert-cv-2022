@@ -30,9 +30,9 @@ const Project = () => {
                       code front
                     </a>
 
-                    {github[1].backEnd !== null ? (
+                    {github[1]?.backEnd !== null ? (
                       <a
-                        href={github[1].backEnd}
+                        href={github[1]?.backEnd}
                         className="btn btn-info text-white"
                       >
                         code back
