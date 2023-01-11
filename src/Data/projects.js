@@ -41,6 +41,7 @@ export const projects = [
   {
     id: 4,
     name: "Dashboard front responsive",
+    language: "Application React, Bootstrap",
     github: [
       { frontEnd: "https://github.com/zorgness/ondilo-front-end-test" },
       { backEnd: null },
