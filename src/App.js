@@ -25,9 +25,9 @@ function App() {
 
   const [loading, setLoading] = useState(true);
 
-  const blocks = document.querySelectorAll(".block");
+  // const blocks = document.querySelectorAll(".block");
 
-  useAnimationOnScroll(blocks);
+  // useAnimationOnScroll(blocks);
 
   useEffect(() => {
     checkStorageDate();
