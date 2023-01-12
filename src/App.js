@@ -13,7 +13,7 @@ import Footer from "./components/Footer";
 import Loader from "././Loader";
 import ToggleDarkMode from "./components/ToggleDarkMode";
 import { checkDataAgeToCleanLocaleStorage } from "./cleanStorage/CleanStorage";
-import { useAnimationOnScroll } from "./utils/animationOnScroll";
+import { animationOnScroll } from "./utils/animationOnScroll";
 
 function App() {
   const checkStorageDate = () => {
@@ -24,10 +24,6 @@ function App() {
   };
 
   const [loading, setLoading] = useState(true);
-
-  // const blocks = document.querySelectorAll(".block");
-
-  // useAnimationOnScroll(blocks);
 
   useEffect(() => {
     checkStorageDate();
