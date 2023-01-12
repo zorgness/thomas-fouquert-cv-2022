@@ -13,7 +13,8 @@ import Footer from "./components/Footer";
 import Loader from "././Loader";
 import ToggleDarkMode from "./components/ToggleDarkMode";
 import { checkDataAgeToCleanLocaleStorage } from "./cleanStorage/CleanStorage";
-import { useAnimationOnScroll } from "./utils/animationOnScroll";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 function App() {
   const checkStorageDate = () => {
@@ -25,9 +26,12 @@ function App() {
 
   const [loading, setLoading] = useState(true);
 
-  // const blocks = document.querySelectorAll(".block");
-
-  // useAnimationOnScroll(blocks);
+  useEffect(() => {
+    Aos.init({
+      once: true,
+    });
+    Aos.refresh();
+  }, []);
 
   useEffect(() => {
     checkStorageDate();
@@ -62,31 +66,31 @@ function App() {
 
             <hr />
 
-            <div className="block left">
+            <div data-aos="fade-left" data-aos-duration="1000">
               <Contact />
             </div>
 
             <hr />
-            <div className="block right">
+            <div data-aos="fade-right" data-aos-duration="1000">
               <Language />
             </div>
 
             <hr />
-            <div className="block left">
+            <div data-aos="fade-left" data-aos-duration="1000">
               <Education />
             </div>
 
-            <div className="block right">
+            <div data-aos="fade-right" data-aos-duration="1000">
               <Experience />
             </div>
 
             <hr />
-            <div className="block left">
+            <div data-aos="fade-left" data-aos-duration="1000">
               <Project />
             </div>
 
             <hr />
-            <div className="block right">
+            <div data-aos="flip-up" data-aos-duration="2000">
               <Skill />
             </div>
           </div>
