@@ -1,5 +1,19 @@
 export const projects = [
   {
+    id: 0,
+    name: "Mini Reddit",
+    language: "Application React Node Typescript",
+    github: [
+      { frontEnd: "https://github.com/zorgness/reddit-clone-web" },
+      { backEnd: "https://github.com/zorgness/reddit-clone-server" },
+    ],
+    link: "https://www.mini-reddit.fun/",
+    imageUrl:
+      "https://i.ibb.co/7r6KJcd/Capture-d-e-cran-2023-01-19-a-16-39-36-copie-Large.jpg",
+    description:
+      "Clone de Reddit un site web communautaire américain de discussion, l' utilisateur peut poster des sujets et placer une note positive ou négative sur les sujets des autres utilisateurs.",
+  },
+  {
     id: 1,
     name: "CocktailBox",
     language: "Application Symfony React Redux",
