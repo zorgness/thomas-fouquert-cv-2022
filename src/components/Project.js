@@ -19,9 +19,13 @@ const Project = () => {
                   <img src={imageUrl} alt={name} className="avatar-square2" />
 
                   <div className="d-flex flex-column gap-3">
-                    <a href={link} className="btn btn-success text-white">
-                      lien vers le site
-                    </a>
+                    {link !== null ? (
+                      <a href={link} className="btn btn-success text-white">
+                        lien vers le site
+                      </a>
+                    ) : (
+                      <button className="btn btn-light">not available</button>
+                    )}
 
                     <a
                       href={github[0].frontEnd}

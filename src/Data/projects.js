@@ -73,7 +73,7 @@ export const projects = [
       { frontEnd: "https://github.com/ThomaSneazy/hello-buddy" },
       { backEnd: null },
     ],
-    link: "http://hello--buddy-v2.herokuapp.com/",
+    link: null,
     imageUrl:
       "https://i.ibb.co/QCmKTQj/Capture-d-e-cran-2022-11-11-a-16-10-15.png",
     description:
