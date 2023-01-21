@@ -54,7 +54,7 @@ function App() {
       {loading ? (
         <Loader />
       ) : (
-        <>
+        <div>
           <Header />
 
           <div className="m-5" style={{ position: "relative" }}>
@@ -96,7 +96,7 @@ function App() {
           </div>
 
           <Footer />
-        </>
+        </div>
       )}
     </div>
   );

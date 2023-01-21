@@ -21,6 +21,9 @@
     transform: translateY(0px);
   }
 }
+.App {
+  overflow-x: hidden;
+}
 .App a {
   text-decoration: none;
 }
