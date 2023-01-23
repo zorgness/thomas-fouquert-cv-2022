@@ -4,6 +4,7 @@ import TextProfile from "./TextProfile";
 import imgProfile from "../images/profile/profile.jpg";
 import Button from "react-bootstrap/Button";
 import { downloadCv } from "../utils/downloadCv";
+import Balancer from "react-wrap-balancer";
 
 const Profile = () => {
   const styles = {
@@ -36,11 +37,13 @@ const Profile = () => {
       </div>
 
       <h4 className="title2 text-decoration-underline text-center">
-        {position}
+        <Balancer>{position}</Balancer>
       </h4>
 
       <div className="d-flex align-items-center justify-content-start mb-5">
-        <h1 className="title text-decoration-underline">{position}</h1>
+        <h1 className="title text-decoration-underline">
+          <Balancer>{position}</Balancer>
+        </h1>
         <div alt="Profile" className="avatar mx-4 lap-top" style={styles}></div>
       </div>
 

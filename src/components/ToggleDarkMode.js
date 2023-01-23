@@ -13,6 +13,23 @@ const ToggleDarkMode = ({ theme, handledarkMode }) => {
   useEffect(() => {
     document.body.style.backgroundColor = isdarkMode ? "#292c35" : "#fff";
     document.body.style.color = isdarkMode ? "#fff" : "#292c35";
+    const titles = ["h1", "h2", "h3", "h4", "h5"];
+
+    titles.forEach((title) => {
+      document.querySelectorAll(title).forEach((el) => {
+        el.style.color = isdarkMode ? "#fff" : "#292c35";
+      });
+    });
+
+    // document.querySelectorAll("h1").forEach((el) => {
+    //   el.style.color = isdarkMode ? "#fff" : "#292c35";
+    // });
+    // document.querySelectorAll("h4").forEach((el) => {
+    //   el.style.color = isdarkMode ? "#fff" : "#292c35";
+    // });
+    // document.querySelectorAll("h5").forEach((el) => {
+    //   el.style.color = isdarkMode ? "#fff" : "#292c35";
+    // });
   }, [isdarkMode]);
 
   return (

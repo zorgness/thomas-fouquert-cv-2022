@@ -1,6 +1,7 @@
 @import url("./styles/avatar.css");
 @import url("./styles/footer.css");
 @import url("./styles/toggle-dark-mode.css");
+@import url("./styles/button.css");
 
 .App-logo {
   height: 48vmin;
@@ -50,7 +51,7 @@
 }
 @media (min-width: 1001px) {
   html {
-    scroll-padding-top: 4rem;
+    scroll-padding-top: 2rem;
   }
   .title {
     display: block;
@@ -69,7 +70,7 @@
 
 @media (max-width: 1000px) {
   html {
-    scroll-padding-top: 15rem;
+    scroll-padding-top: 12rem;
   }
   .title {
     display: none;

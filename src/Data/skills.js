@@ -8,7 +8,7 @@ export const skills = [
   {
     id: 2,
     name: "Test",
-    description: "Développement TDD, Jest React testing library",
+    description: "React testing library",
   },
   {
     id: 3,
@@ -18,7 +18,7 @@ export const skills = [
   {
     id: 4,
     name: "Docker",
-    description: "Notions Docker container",
+    description: "Notions Docker",
   },
   {
     id: 5,
