@@ -27,12 +27,14 @@ const Project = () => {
                       <button className="btn btn-light">not available</button>
                     )}
 
-                    <a
-                      href={github[0].frontEnd}
-                      className="btn btn-secondary text-white"
-                    >
-                      code front
-                    </a>
+                    {github[0]?.frontEnd !== null ? (
+                      <a
+                        href={github[0].frontEnd}
+                        className="btn btn-secondary text-white"
+                      >
+                        code front
+                      </a>
+                    ) : null}
 
                     {github[1]?.backEnd !== null ? (
                       <a

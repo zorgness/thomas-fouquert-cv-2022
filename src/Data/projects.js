@@ -1,5 +1,16 @@
 export const projects = [
   {
+    id: 6,
+    name: "Siam Terra Creation",
+    language: "Site Wordpress Woocommerce",
+    github: [{ frontEnd: null }, { backEnd: null }],
+    link: "https://siamterracreation.com/",
+    imageUrl:
+      "https://i.ibb.co/FgYDHvc/Capture-d-e-cran-2023-02-09-a-16-46-15.png",
+    description:
+      "Site fictif E Commerce réalisé sur wordpress avec l'utilisation du page builder Elementor et du plugin Woocommerce",
+  },
+  {
     id: 0,
     name: "Mini Reddit",
     language: "Application React Node Typescript",
